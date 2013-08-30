@@ -13,4 +13,9 @@ WriteMakefile(
     ($] >= 5.005 ?
       (ABSTRACT_FROM  => 'lib/CGI/Prototype/Mecha.pm',
        AUTHOR         => 'Randal L. Schwartz <merlyn@stonehenge.com>') : ()),
+    META_MERGE => {
+        resources => {
+            repository => 'https://github.com/RandalSchwartz/perl-module-cgi-prototype-mecha',
+        },
+    },
 );
